@@ -2,7 +2,7 @@
     "expo": {
         "name": "Apod",
         "slug": "Apod",
-        "scheme": "notJustAstronomy",
+        "scheme": "not-just-astronomy",
         "version": "1.0.0",
         "orientation": "portrait",
         "icon": "./assets/icon.png",
@@ -26,6 +26,9 @@
             "favicon": "./assets/favicon.png",
             "bundler": "metro"
         },
-        "plugins": ["expo-router"]
+        "plugins": ["expo-router"],
+        "experiments": {
+            "tsconfigPaths": true
+        }
     }
 }
